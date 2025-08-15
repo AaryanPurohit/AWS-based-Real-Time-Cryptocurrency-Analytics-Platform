@@ -1,0 +1,49 @@
+# ===== Python =====
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# ===== Environment & Config =====
+.env
+.env.*
+*.db
+*.sqlite3
+local_crypto.db
+.DS_Store
+
+# ===== Node / React =====
+node_modules/
+frontend/node_modules/
+frontend/build/
+frontend/.parcel-cache/
+frontend/.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ===== AWS / Terraform =====
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+
+# ===== ML Artifacts =====
+*.h5
+*.pt
+*.pkl
+*.joblib
+ml-model/__pycache__/
+ml-model/*.model
+
+# ===== OS / IDE =====
+.vscode/
+.idea/
+Thumbs.db
+ehthumbs.db
+Icon?
